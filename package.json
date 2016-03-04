@@ -1,0 +1,16 @@
+{
+  "name": "retro-api",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "cmake-js": "^1.1.1",
+    "nan": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "install": "cmake-js compile"
+  },
+  "author": "Clement JACOB",
+  "license": "MIT"
+}
