@@ -200,7 +200,7 @@ bool retro_environment(unsigned cmd, void * data)
 
     case RETRO_ENVIRONMENT_GET_CAN_DUPE: {
       bool * dupe = (bool*)data;
-      *dupe = true
+      *dupe = true;
       return true;
     }
 
