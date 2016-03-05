@@ -198,6 +198,12 @@ bool retro_environment(unsigned cmd, void * data)
       return true;
     }
 
+    case RETRO_ENVIRONMENT_GET_CAN_DUPE: {
+      bool * dupe = (bool*)data;
+      *dupe = true
+      return true;
+    }
+
     case RETRO_ENVIRONMENT_SET_INPUT_DESCRIPTORS: {
       retro_input_descriptor * inputDesc = (retro_input_descriptor *)data;
       size_t i = 0;
