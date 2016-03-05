@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "install": "cmake-js compile"
+    "install": "cmake-js build"
   },
   "author": "Clement JACOB",
   "license": "MIT"
